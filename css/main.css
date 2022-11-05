@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+:root {
+    --family: "Roboto";
+}
+
+
+/* header */
+
+.header__one {
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    border-bottom: 1px solid #828282;
+    margin-bottom: 40px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 33px;
+    padding-bottom: 32px;
+}
+
+.li {
+    list-style-type: none;
+}
+
+.silka {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    font-family: var(--family);
+}
+
+.silka:hover {
+    color: #070707;
+}
+
+.li:hover {
+    transform: scale(1.5);
+    transition: all 0.5s linear;
+}
+
+.first-box {
+    width: 100%;
+}
+
+.for-stext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.infa {
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: 22px;
+    /* Black */
+    color: #070707;
+    width: 156px;
+}
+
+.name {
+    font-family: var(--family);
+    font-size: 47.3392px;
+    line-height: 59px;
+    /* Black */
+    color: #070707;
+    width: 124px;
+}
+
+.btn-box {
+    transform: rotate(-90deg);
+}
+
+.ru {
+    border: 0;
+    font-family: var(--family);
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.eng {
+    border: 0;
+    font-family: var(--family);
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.ru:hover {
+    transition: all 0.5s linear;
+    color: #070707;
+}
+
+.eng:hover {
+    transition: all 0.5s linear;
+    color: #070707;
+}
+
+.novik {
+    width: 100%;
+    margin-bottom: 104px;
+}
+
+.menu-box {}
+
+.burger {}
+
+.hidden {}
+
+.burger-box {}
+
+.hidden-silka {}
+
+
+/* /header */
+
+
+/* main */
+
+.main {}
+
+.main__one {
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 107px;
+    height: 506px;
+    width: 100%;
+    /* padding-left: 480px;
+    padding-right: 550px; */
+    background-color: #F6F6F6;
+}
+
+.small-box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about {
+    font-size: 34px;
+    line-height: 42px;
+    /* Black */
+    color: #070707;
+    font-family: var(--family);
+    margin-bottom: 18px;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 22px;
+    /* Black */
+    color: #070707;
+    font-family: var(--family);
+    /* height: 218px;
+    width: 485px; */
+}
+
+.main__two {}
+
+.ssbox {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.skills {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    /* Black */
+    color: #070707;
+    font-family: var(--family);
+    margin-bottom: 70px;
+}
+
+.title {
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    /* Black */
+    color: #070707;
+    margin-bottom: 85px;
+}
+
+.four__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.one {
+    height: 206px;
+    width: 166px;
+    text-align: center;
+}
+
+.ps {
+    margin-bottom: 25px;
+}
+
+.ps:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.under__img {
+    font-family: var(--family);
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.group {
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.black-star {}
+
+.white-star {}
+
+.two {
+    height: 206px;
+    width: 166px;
+    text-align: center;
+}
+
+.ai {
+    margin-bottom: 25px;
+}
+
+.ai:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.three {
+    height: 206px;
+    width: 166px;
+    text-align: center;
+}
+
+.ae {
+    margin-bottom: 25px;
+}
+
+.ae:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.four {
+    height: 206px;
+    width: 166px;
+    text-align: center;
+}
+
+.figma-img {
+    margin-bottom: 25px;
+}
+
+.figma-img:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.main__three {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 96px;
+}
+
+.portfolio {
+    font-family: var(--family);
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    /* Black */
+    color: #070707;
+    margin-bottom: 47px;
+}
+
+.big-img {
+    margin-bottom: 45px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.ssilka {
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    /* Black */
+    color: #070707;
+}
+
+
+/* /main */
+
+
+/* foot */
+
+.footer {}
+
+.footer__one {
+    padding-top: 115px;
+    padding-bottom: 123px;
+}
+
+.sbox {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacts {
+    font-family: var(--family);
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    /* Black */
+    color: #070707;
+    margin-bottom: 20px;
+}
+
+.questions {
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    /* Black */
+    color: #070707;
+    height: 44px;
+    width: 275px;
+    margin: 0 auto;
+}
+
+.black-btn {
+    font-family: var(--family);
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    background: #070707;
+    height: 42px;
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.black-btn:hover {
+    background-color: #FFFFFF;
+    color: black;
+    transition: all 0.5s linear;
+}
+
+.silki-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.in {}
+
+.insta {}
+
+.be {}
+
+.ball {}
+
+.in:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.insta:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.be:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.ball:hover {
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+.lorem {
+    margin-top: 45px !important;
+    height: 34px;
+    width: 243px;
+    margin: 0 auto;
+}
+
+
+/* /foot */
+
+
+/* bootstrap */
+
+.off {
+    display: none;
+}
+
+.boot-silka {
+    font-size: 34px;
+    line-height: 42px;
+    color: #828282;
+    display: block;
+    text-decoration: 0;
+    margin-bottom: 67px;
+}
+
+.boot-silka:hover {
+    color: #070707;
+    transition: all 0.5 s linear;
+}
+
+.novik2 {
+    display: none;
+}

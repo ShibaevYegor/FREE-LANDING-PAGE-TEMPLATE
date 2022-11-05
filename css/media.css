@@ -1,0 +1,167 @@
+@media only screen and (max-width:980px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:835px) {
+    .one {
+        width: 20%;
+    }
+    .two {
+        width: 20%;
+    }
+    .three {
+        width: 20%;
+    }
+    .four {
+        width: 20%;
+    }
+    .group {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .skills {
+        margin-bottom: 30px;
+    }
+    .portfolio {
+        margin-bottom: 0px;
+    }
+    .title {
+        margin-bottom: 40px;
+    }
+    .big-img {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width:677px) {
+    .under__img {
+        width: 100px;
+        margin: 0 auto;
+    }
+    .group {
+        margin-top: 15px;
+    }
+    .figma-img {
+        margin-bottom: 42px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .black-star {
+        width: 15px;
+        height: 15px;
+    }
+    .white-star {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width:565px) {
+    .four__box {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:495px) {
+    .novik {
+        margin-bottom: 40px;
+    }
+    .main__one {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 400px;
+    }
+    .ssbox {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main__three {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer__one {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .black-btn {
+        margin-bottom: 50px;
+    }
+    .four__box {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .one {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .two {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .three {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .four {
+        width: 100%;
+    }
+    .figma-img {
+        margin-bottom: 25px;
+    }
+    .group {
+        width: 30%;
+    }
+    .black-star {
+        width: 25px;
+        height: 25px;
+    }
+    .white-star {
+        width: 25px;
+        height: 25px;
+    }
+    .btn-box {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .btn-box {
+        display: none !important;
+    }
+    .navbar {
+        display: none;
+        width: 0;
+        height: 0;
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    .silka {
+        display: none;
+    }
+    .for-stext {
+        display: block;
+    }
+    .for-text {
+        display: flex;
+        justify-content: space-between;
+    }
+    .off {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .novik {
+        display: none;
+    }
+    .novik2 {
+        display: block;
+    }
+}

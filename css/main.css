@@ -437,7 +437,9 @@ a {
 .loreem__box {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 50px;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .linkedin {

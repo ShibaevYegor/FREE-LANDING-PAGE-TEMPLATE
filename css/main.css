@@ -233,7 +233,31 @@ a {
     transition: all 2s linear;
 }
 
-.under__img {
+.under__img-photoshop {
+    font-family: var(--family);
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.under__img-illustrator {
+    font-family: var(--family);
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.under__img-after {
+    font-family: var(--family);
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin-bottom: 40px;
+}
+
+.under__img-figma {
     font-family: var(--family);
     font-size: 14px;
     line-height: 17px;
@@ -288,11 +312,11 @@ a {
     text-align: center;
 }
 
-.figma-img {
+.figma__img {
     margin-bottom: 25px;
 }
 
-.figma-img:hover {
+.figma__img:hover {
     transform: rotate(360deg);
     transition: all 2s linear;
 }
@@ -444,18 +468,22 @@ a {
 
 .linkedin {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .instagram {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .behance {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .dribble {
     font-size: 15px;
+    cursor: pointer;
 }
 
 .action {
@@ -489,4 +517,194 @@ a {
 
 .novik2 {
     display: none;
+}
+
+
+/* loading */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+body {}
+
+h1 {
+    font-family: "Open Sans", -apple-system, "Segoe UI", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #212121;
+    box-sizing: border-box;
+}
+
+.dots {
+    display: inline-flex;
+}
+
+.dots--animate .dot.z {
+    -webkit-animation: scale 0.8s 0.2s forwards;
+    animation: scale 0.8s 0.2s forwards;
+}
+
+.dots--animate .dot.f,
+.dots--animate .dot.s {
+    -webkit-animation: right 0.5s forwards;
+    animation: right 0.5s forwards;
+}
+
+.dots--animate .dot.l {
+    -webkit-animation: rightDown 0.4s 0.1s forwards linear, drop 2s 0.4s forwards linear;
+    animation: rightDown 0.4s 0.1s forwards linear, drop 2s 0.4s forwards linear;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #212121;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 6px;
+}
+
+.dot.z {
+    position: absolute;
+    transform: scale(0);
+}
+
+@-webkit-keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1);
+    }
+}
+
+.dot.f,
+.dot.s {
+    transform: translateX(0px);
+}
+
+@-webkit-keyframes right {
+    100% {
+        transform: translateX(16px);
+    }
+}
+
+@keyframes right {
+    100% {
+        transform: translateX(16px);
+    }
+}
+
+.dot.t {
+    background: transparent;
+}
+
+.dot .l {
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@-webkit-keyframes rightDown {
+    50% {
+        top: 4px;
+        left: 16px;
+    }
+    100% {
+        top: 12px;
+        left: 24px;
+    }
+}
+
+@keyframes rightDown {
+    50% {
+        top: 4px;
+        left: 16px;
+    }
+    100% {
+        top: 12px;
+        left: 24px;
+    }
+}
+
+@-webkit-keyframes drop {
+    100% {
+        transform: translate(70px, calc(35px + (100vh / 2)));
+    }
+}
+
+@keyframes drop {
+    100% {
+        transform: translate(70px, calc(35px + (100vh / 2)));
+    }
+}
+
+.abs-twitter {
+    position: fixed;
+    right: calc(24px + 0.6vw);
+    top: calc(22px + 0.6vw);
+    transform: translate(-8px, 4px);
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.abs-twitter--show {
+    transform: translate(0, 0);
+    opacity: 1;
+    -webkit-animation: birdie 1s 0.8s linear infinite;
+    animation: birdie 1s 0.8s linear infinite;
+}
+
+@-webkit-keyframes birdie {
+    13% {
+        transform: rotate(14deg);
+    }
+    26% {
+        transform: rotate(28deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes birdie {
+    13% {
+        transform: rotate(14deg);
+    }
+    26% {
+        transform: rotate(28deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.bb {
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bb h1 {
+    color: white;
+}
+
+.bb span {
+    background-color: white;
+}
+
+.ss {
+    transition: all 0.5s linear;
+    opacity: 0;
 }

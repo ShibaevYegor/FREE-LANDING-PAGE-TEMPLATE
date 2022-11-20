@@ -5,6 +5,10 @@
     text-decoration: 0;
 }
 
+a {
+    text-decoration: 0;
+}
+
 .container {
     margin: 0 auto;
     max-width: 940px;
@@ -49,6 +53,7 @@
     line-height: 22px;
     color: #828282;
     font-family: var(--family);
+    text-decoration: none;
 }
 
 .silka:hover {
@@ -422,10 +427,38 @@
 }
 
 .lorem {
-    margin-top: 45px !important;
+    /* margin-top: 45px !important; */
     height: 34px;
     width: 243px;
     margin: 0 auto;
+    font-size: 15px;
+}
+
+.loreem__box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.linkedin {
+    font-size: 15px;
+}
+
+.instagram {
+    font-size: 15px;
+}
+
+.behance {
+    font-size: 15px;
+}
+
+.dribble {
+    font-size: 15px;
+}
+
+.action {
+    transform: rotate(360deg);
+    transition: all 2s linear;
 }
 
 

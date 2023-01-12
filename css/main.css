@@ -447,12 +447,14 @@ a {
     margin-bottom: 90px;
     margin-top: 40px;
     font-family: var(--family);
+    font-weight: bold;
   }
   
   .black-btn:hover {
     transition-duration: all 0.1s linear;
     background-color: #ffffff;
     color: #000000;
+    font-weight: bolder;
   }
   
   .black-btn:after {

@@ -595,7 +595,6 @@ a {
 /* loading */
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
-body {}
 
 h1 {
     font-family: "Open Sans", -apple-system, "Segoe UI", sans-serif;
@@ -714,7 +713,7 @@ h1 {
     }
 }
 
-.abs-twitter {
+/* .abs-twitter {
     position: fixed;
     right: calc(24px + 0.6vw);
     top: calc(22px + 0.6vw);
@@ -728,7 +727,7 @@ h1 {
     opacity: 1;
     -webkit-animation: birdie 1s 0.8s linear infinite;
     animation: birdie 1s 0.8s linear infinite;
-}
+} */
 
 @-webkit-keyframes birdie {
     13% {

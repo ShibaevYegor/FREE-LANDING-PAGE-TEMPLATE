@@ -5,6 +5,12 @@
     text-decoration: 0;
 }
 
+marquee {
+    text-transform: uppercase;
+    font-size: large;
+    color: red;
+}
+
 a {
     text-decoration: 0;
 }
@@ -239,6 +245,7 @@ a {
     line-height: 17px;
     color: #828282;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .under__img-illustrator {
@@ -247,6 +254,8 @@ a {
     line-height: 17px;
     color: #828282;
     margin-bottom: 40px;
+    cursor: pointer;
+
 }
 
 .under__img-after {
@@ -255,6 +264,8 @@ a {
     line-height: 17px;
     color: #828282;
     margin-bottom: 40px;
+    cursor: pointer;
+
 }
 
 .under__img-figma {
@@ -263,6 +274,8 @@ a {
     line-height: 17px;
     color: #828282;
     margin-bottom: 40px;
+    cursor: pointer;
+
 }
 
 .group {
@@ -393,11 +406,10 @@ a {
     margin: 0 auto;
 }
 
-.black-btn {
+/* .black-btn {
     font-family: var(--family);
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
     background: #070707;
@@ -412,7 +424,67 @@ a {
     background-color: #FFFFFF;
     color: black;
     transition: all 0.5s linear;
-}
+} */
+
+/* button */
+
+.black-btn{
+    position: relative;
+    background-color: #070707;
+    color: white;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: all 0.4s linear;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    font-size: 18px;
+    line-height: 22px;
+    height: 42px;
+    width: 180px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    margin-top: 40px;
+    font-family: var(--family);
+  }
+  
+  .black-btn:hover {
+    transition-duration: all 0.1s linear;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .black-btn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+    box-shadow: 0 0 10px 40px rgb(0, 0, 0);
+  }
+  
+  .black-btn:active:after {
+    box-shadow: 0 0 0 0 rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: all 0s linear;
+  }
+  
+  .black-btn:active {
+    top: 1px;
+  }
+
+
+/* /button */
 
 .silki-img {
     display: flex;

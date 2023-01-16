@@ -5,6 +5,10 @@
     text-decoration: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 marquee {
     text-transform: uppercase;
     font-size: large;
